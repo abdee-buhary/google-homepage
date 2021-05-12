@@ -1,0 +1,1 @@
+This is a mini-project for myself trying to re-create the existing home-page for google. Really excited!
