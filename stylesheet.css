@@ -1,6 +1,28 @@
 #main{
     height: auto;
 }
+
+#navbar ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 10px;
+}
+
+#navbar li{
+    display: inline-block;
+
+}
+
+.nav-left{
+    background-color: pink;
+    
+}
+
+.nav-right{
+    float: right;
+}
+
+
 #logo{
     margin-left: auto;
     margin-right: auto;
