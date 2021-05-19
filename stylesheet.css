@@ -38,10 +38,7 @@
 }
 
 #icon-nav a:hover{
-    box-shadow: green;
     text-decoration: none;
-    box-shadow: 5px 10px #eee;
-
 }
 
 
@@ -65,40 +62,39 @@
     margin-right: auto;
     display: block;
     width: auto;
-    margin-top: 260px;
+    margin-top: 150px;
     margin-bottom: auto;
 }
 
 #search-bar{
-    display: flex;
-    width: 550px;
-    height: 40px;
-    margin-left: auto;
-    margin-right:auto;
-    border-style: solid;
-    border-radius: 30px;
-    border-color: #ececec;
-    padding-left: 5px;
-    
+    padding: ;
+
 }
 
 #search{
     width: 530px;
     height: 38px;
-    border-radius: 30px;
     border-style: none;
     margin-top: 0px;
-    border-color: #ececec;
+    border-color: #fcfcfc;
+    border: 1px solid;
+    border-radius: 30px;
     outline: none;
     font-size: 16px;
+    background-image: url("search.png");
+    background-repeat: no-repeat;
+    background-position:  5px;
+    background-size: 20px;
+    background-image-color: ; 
+    padding-left: 30px;
     
 
 }
 
-#search-bar :hover{
-    box-shadow: 2px 2px 5px #dfdfdf;
-    outline: none;
+#style :hover{
+    box-shadow: 0px 1.7px 5px rgb(155, 149, 149);
 }
+
 
 
 #search-icon{
@@ -106,7 +102,82 @@
     display: inline-block;
     margin-top: 10px;
     border-radius: 5px;
+}
+
+#layout{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+#button-layout{
+    margin-top: 30px;
+}
+
+.button{
+    padding: 10px;
+    height: auto;
+    width: auto;
+    border: none;
+    background-color: #eeeeee;
+    border-radius: 5px;
+
+
+}
+
+.button:hover{
+    background-color: #fcfcfc;
+    border: 1px solid;
+    box-shadow: 0px 1.7px 5px rgb(155, 149, 149);
+
+
+}
+
+.button:active {
+    background-color: #fcfcfc;
+    outline: none;
+    box-shadow: 0px 1.7px 5px rgb(155, 149, 149);
+
+
+
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: #eeeeee;
+    width: 100%;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
     
 
 }
 
+#footer-left{
+    display: flex;
+    width: 50%;
+}
+
+#footer-right{
+    display: flex;
+    text-align: right;
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+#footer a{
+    padding:5px;
+    text-decoration: none;
+    font-size: small;
+    
+}
+
+ #footer a:hover{
+   text-decoration: underline;
+    
+}
